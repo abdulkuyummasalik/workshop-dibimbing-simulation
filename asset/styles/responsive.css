@@ -1,0 +1,62 @@
+@media screen and (max-width: 450px) {
+    nav {
+        display: none;
+    }
+
+    .about-text h1 {
+        font-size: 2rem;
+    }
+
+    .services-menu-poto img {
+        width: 40%;
+    }
+
+    .services-menu-title h1 {
+        font-size: 1.2rem;
+    }
+
+    .services-menu-title h2 {
+        font-size: .7rem;
+    }
+
+    .aside {
+        background: var(--putih);
+        padding: 3rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+
+    .aside-title {
+        padding: 2rem 0;
+    }
+
+    .aside-text h1 {
+        font-size: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .aside-text p {
+        font-size: 1rem;
+        padding-bottom: 2rem;
+    }
+
+    .aside-btn button {
+        padding: .2rem 1rem;
+        border-radius: 25px;
+        box-shadow: 3px 2px 0 var(--abu);
+        border: 3px solid #000;
+    }
+
+    .aside-btn button a {
+        font-size: 1rem;
+    }
+
+    .footer-name {
+        display: none;
+    }
+
+    .footer-home {
+        display: none;
+    }
+}
